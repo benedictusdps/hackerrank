@@ -6,17 +6,11 @@
 # Number of key-value pairs
 n = int(input())
 
-# Declare both dictionary and list
-phone_book = dict()
-names = []
-
 # Loop through the number of pairs, appending the input into the names list
-for i in range(n):
-    names.append(input().split())
+names = [input().split() for i in range(n)]
 
 # Loop through the list, inserting the key and val into the phone book dictionary
-for key, val in names:
-    phone_book[key] = val
+phone_book = {key: val for key, val in names}
 
 # While there is still name input, check in the phonebook if the name existed
 # If it exist, print out the name and number
