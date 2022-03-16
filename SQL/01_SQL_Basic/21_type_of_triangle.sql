@@ -13,4 +13,4 @@ SELECT CASE
     WHEN A = B OR A = C OR B = C THEN "Isosceles"
     ELSE "Scalene"
     END
-FROM TRIANGLES
+FROM TRIANGLES;
