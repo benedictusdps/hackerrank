@@ -1,3 +1,3 @@
 # HackerRank Tutorial
 
-Collections of answers for Hackerrank tutorials and practices.
+My answers for HackerRank practice spanning on C++, Python, SQL, JavaScript, and general statistics.
